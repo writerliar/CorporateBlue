@@ -1,0 +1,53 @@
+@font-face {
+	font-family: "Oswald";
+	src: url("../font/oswald/oswaldregular.woff2"), url("../font/oswald/oswaldregular.woff");
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Oswald";
+	src: url("../font/oswald/oswaldlight.woff2"), url("../font/oswald/oswaldlight.woff");
+	font-weight: lighter;
+}
+
+@font-face {
+	font-family: "Tahoma";
+	src: url("../font/tahoma/tahome.ttf");
+	font-weight: lighter;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Tahoma", Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #8f8f8f;
+    text-transform: none;
+    background-image:
+                    url(../img/background.png),
+                    url(../img/background-noise.png);
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+.header-border {
+    margin-bottom: 25px;
+    height: 5px;
+    background-color: #7e7e7e;
+}
