@@ -1,19 +1,19 @@
 @font-face {
-	font-family: "Oswald";
-	src: url("../font/oswald/oswaldregular.woff2"), url("../font/oswald/oswaldregular.woff");
-	font-weight: normal;
+    font-family: "Oswald";
+    src: url("../fonts/oswald/oswaldregular.woff2"), url("../fonts/oswald/oswaldregular.woff");
+    font-weight: normal;
 }
 
 @font-face {
-	font-family: "Oswald";
-	src: url("../font/oswald/oswaldlight.woff2"), url("../font/oswald/oswaldlight.woff");
-	font-weight: lighter;
+    font-family: "Oswald";
+    src: url("../fonts/oswald/oswaldlight.woff2"), url("../fonts/oswald/oswaldlight.woff");
+    font-weight: lighter;
 }
 
 @font-face {
-	font-family: "Tahoma";
-	src: url("../font/tahoma/tahome.ttf");
-	font-weight: lighter;
+    font-family: "Tahoma";
+    src: url("../fonts/tahoma/tahome.ttf");
+    font-weight: lighter;
 }
 
 
@@ -27,43 +27,43 @@ body {
     color: #8f8f8f;
     text-transform: none;
     background-image:
-                    url(../img/background.png),
-                    url(../img/background-noise.png);
+        url(../img/background.png),
+        url(../img/background-noise.png);
 }
 
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 img {
-	max-width: 100%;
-	height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .container {
-	width: 960px;
-	margin: 0 auto;
-	padding: 0 30px;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 30px;
 }
 
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
-	position: absolute;
-	width: 1px;
-	height: 1px;
-	margin: -1px;
-	border: 0;
-	padding: 0;
-	white-space: nowrap;
-	-webkit-clip-path: inset(100%);
-	        clip-path: inset(100%);
-	clip: rect(0 0 0 0);
-	overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .header-border {
-    margin-bottom: 25px;
+    margin-bottom: 27px;
     height: 5px;
     background-color: #7e7e7e;
 }
@@ -71,5 +71,32 @@ input[type="radio"].visually-hidden {
 .header-top {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
     list-style: none;
+}
+
+.search-form {
+    display: flex;
+    width: 203px;
+}
+
+.search-input {
+    width: 158px;
+}
+
+.button-search {
+    padding-top: 11px;
+    padding-left: 0px;
+    padding-bottom: 6px;
+    padding-right: 0px;
+    width: 42px;
+    font-family: "Oswald", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fefefe;
+    background-color: #29c5e6;
+    border: none;
 }
