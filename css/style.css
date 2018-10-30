@@ -143,7 +143,7 @@ input[type="radio"].visually-hidden {
 
 .main-menu-link {
     display: block;
-    padding-right: 37px;
+    padding-right: 36px;
     padding-left: 31px;
     font-family: "Oswald", Arial, sans-serif;
     font-size: 14px;
@@ -577,4 +577,55 @@ input[type="radio"].visually-hidden {
 .copyright-text a {
     color: inherit;
     text-decoration: underline;
+}
+
+/*-----------------------------------------*/
+.heading {
+    margin: 30px 0;
+	padding-left: 20px;
+    background: transparent;
+    background-image: url(../img/big-title-pattern.png);
+}
+
+.main-title {
+    display: inline-block;
+    margin: 0;
+	padding: 0 10px;
+    font-family: "Oswald", Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #7e7e7e;
+    background-image:
+        url(../img/background.png),
+        url(../img/background-noise.png);
+    text-transform: uppercase;
+}
+
+.index-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aside {
+    margin-right: 280px;
+}
+
+.aside-menu li {
+	font-weight: 300;
+	list-style-type: square;
+	border-top: 1px solid #e7e7e7;
+    text-transform: uppercase;
+}
+
+.aside-menu li:first-child {
+	border: none;
+}
+
+.aside-menu li.active {
+	color: #29c5e6;
+}
+
+.aside-menu a {
+	color: #8f8f8f;
 }
