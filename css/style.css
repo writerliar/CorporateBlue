@@ -607,3 +607,7 @@ input[type="radio"].visually-hidden {
     justify-content: space-between;
 }
 
+.aside {
+    margin-right: 32px;
+    width: 248px;
+}
