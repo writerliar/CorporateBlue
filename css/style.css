@@ -460,7 +460,7 @@ input[type="radio"].visually-hidden {
 }
 
 .footer {
-    margin-top: 42px;
+    margin-top: 33px;
     color: #dbdbdb;
     background-color: #7e7e7e;
 }
@@ -609,6 +609,8 @@ input[type="radio"].visually-hidden {
 .index-column {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
 }
 
 .aside {
@@ -683,14 +685,14 @@ input[type="radio"].visually-hidden {
     margin: 0;
     color: #ffffff;
     font-family: "Oswald", Arial, sans-serif;
-    font-weight: 500;
+    font-weight: 400;
+    letter-spacing: 0.9px;
     text-transform: uppercase;
     background-color: #29c5e6;
 }
 
 .section-title-small {
     padding-left: 12px;
-    letter-spacing: 0.9px;
     font-size: 14px;
     line-height: 40px;
     border: 1px solid #29c5e6;
@@ -753,4 +755,75 @@ input[type="radio"].visually-hidden {
 
 .inner-main-text {
     margin-bottom: 18px;
+}
+
+.column {
+    margin-right: 30px;
+}
+
+.column:nth-child(2n) {
+    margin-right: 0;
+}
+
+.section-title-big {
+    font-size: 30px;
+    padding: 5px;
+    padding-left: 9px;
+    margin-bottom: 20px;
+}
+
+.inner-team-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;;
+}
+
+.inner-team-list-item {
+    margin-right: 45px;
+}
+
+.inner-team-list-item:nth-child(5n) {
+    margin-right: 0;
+}
+
+.inner-team-list-item img {
+    margin-bottom: 2px;
+}
+
+.inner-team-list-item p {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 4px;
+    font-family: "Oswald", Arial, sans-serif;
+}
+
+p.team-name {
+    color: #8f8f8f;
+    font-size: 16px;
+}
+
+p.team-position {
+    color: #29c5e6;
+    font-size: 14px;
+    margin-bottom: 19px;
+}
+
+/*-------------------------------------------*/
+
+.aside-dropmenu {
+    
+}
+
+.screen-name {
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: "Oswald", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    color: #8f8f8f;
+    text-transform: uppercase;
+    text-align: center;
 }
